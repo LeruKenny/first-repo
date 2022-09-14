@@ -12,6 +12,7 @@ while True:
     mylist = ['rock', 'paper','scissors']
     computer_input = random.choice(mylist)
     if user_input == "q":
+        print('Goodbye')
         break
     else:
         print(f'your guess is {user_input} and computer guess is {computer_input}')
@@ -38,5 +39,5 @@ while True:
         print('i dont know what you just typed')
 
 while False:
-    print('goodbye')
+    print('Goodbye')
     break  
